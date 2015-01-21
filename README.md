@@ -18,12 +18,17 @@ three sentences:
 Update this README with a description of each of the following and an
 example you've created:
 
-* `forEach`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
-* `map`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `some`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
-* `every`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every)
+* `forEach`: closest iterator to a traditional ‘for loop’. applies the condition to each part of an array.
+
+* `map`: takes an array and transforms it in some way (.downcase, .toUpperCase, .sort, etc…)
+
+* `filter`: creates subsets of an array based on certain parameters. (strings beginning with the letter ‘a’, or with an even/odd length string, etc. . .). it ‘filters’ the array. Creates a new array.
+
+* `reduce`: combines an entire array into a single value.
+
+* `some`: is like the ‘||’ of the array world. returns true if any of the elements return true.
+
+* `every`: is like the ‘&&’ of the array world. returns true if all of the elements return true.
 
 Use the notes provided to help guide you explanation.
 
